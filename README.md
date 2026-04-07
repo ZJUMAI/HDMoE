@@ -2,6 +2,7 @@
 
 <summary>
   <b>HDMoE: A Hierarchical Decoupling-Fusion Mixture-of-Experts Framework for Multimodal Cancer Survival Prediction</b>.
+  
   <a>KDD AI for Sciences Track (Rebuttal period)</a> 
   <br><em>Huayi Wang, Haochao Ying, Yuyang Xu, Qiyao Zheng, jun wang, Cheng Zhang, Ying Sun, Jian Wu </em></br>
 </summary>
@@ -43,7 +44,7 @@ In this work, we directly use the preprocessed genomic data、signatures.csv and
 Splits for each cancer type are found in the `splits/5foldcv ` folder, which are randomly partitioned each dataset using 5-fold cross-validation. Each one contains splits_{k}.csv for k = 1 to 5. 
 
 ## Running Experiments
-To train DeReF, you can specify the argument in the bash `run.sh` and run the command:
+To train HDMoE, you can specify the argument in the bash `run.sh` and run the command:
 ```bash
 bash run.sh
 ```
@@ -63,7 +64,6 @@ CUDA_VISIBLE_DEVICES=<DEVICE_ID> python main.py \
                                       --scheduler None \
                                       --alpha 1.0
 ```
-Commands for all experiments of DeReF can be found in the [run.sh](run.sh) file.
 
 
 ## Acknowledgements
@@ -73,11 +73,10 @@ Huge thanks to the authors of following open-source projects:
 ## License & Citation 
 If you find our work useful in your research, please consider citing our paper at:
 ```bash
-@ARTICLE{11417210,
-  author={Wang, Huayi and Ying, Haochao and Xu, Yuyang and Qiu, Qibo and Zhang, Cheng and Chen, Danny Z. and Sun, Ying and Wu, Jian},
-  journal={IEEE Transactions on Medical Imaging}, 
-  title={Decouple, Reorganize, and Fuse: A Multimodal Framework for Cancer Survival Prediction}, 
+@ARTICLE{HDMoE,
+  author={Huayi Wang and Haochao Ying and Yuyang Xu and Qiyao Zheng and jun wang and Cheng Zhang and Ying Sun and Jian W},
+  title={HDMoE: A Hierarchical Decoupling-Fusion Mixture-of-Experts Framework for Multimodal Cancer Survival Prediction}, 
   year={2026},
-  keywords={Cancer survival prediction;Modal decoupling;Multimodal fusion;Mixture-of-Experts},
-  doi={10.1109/TMI.2026.3668773}}
+  keywords={Multimodal Learning; Mixture-of-Experts; Survival Prediction},
+  }
 
