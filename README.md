@@ -6,12 +6,12 @@
   <br><em>Huayi Wang, Haochao Ying, Yuyang Xu, Qiyao Zheng, jun wang, Cheng Zhang, Ying Sun, Jian Wu </em></br>
 </summary>
 
+<img src="imgs/framework.png" width="1500px" align="center" />
 
 </details>
-
 **Summary:** Here is the official implementation of the paper "HDMoE: A Hierarchical Decoupling-Fusion Mixture-of-Experts Framework for Multimodal Cancer Survival Prediction".
 
-<img src="imgs/framework.png" width="1500px" align="center" />
+
 
 
 ### Pre-requisites:
