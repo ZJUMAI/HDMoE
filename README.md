@@ -37,7 +37,7 @@ DATA_ROOT_DIR/
 DATA_ROOT_DIR is the base directory of cancer type (e.g. the directory to TCGA_BLCA), which should be passed to the model with the argument `--data_root_dir` as shown in [run.sh](run.sh).
 
 #### Genomics
-In this work, we directly use the preprocessed genomic data provided by [PORPOISE](https://github.com/mahmoodlab/PORPOISE), stored in folder [csv](./csv).
+In this work, we directly use the preprocessed genomic data、signatures.csv and sample lists (Training-Validation Splits) provided by [PORPOISE](https://github.com/mahmoodlab/PORPOISE), stored in folder [csv](./csv) and [splits](./splits).
 
 ## Training-Validation Splits
 Splits for each cancer type are found in the `splits/5foldcv ` folder, which are randomly partitioned each dataset using 5-fold cross-validation. Each one contains splits_{k}.csv for k = 1 to 5. 
