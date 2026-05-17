@@ -3,7 +3,6 @@
 <summary>
   <b>HDMoE: A Hierarchical Decoupling-Fusion Mixture-of-Experts Framework for Multimodal Cancer Survival Prediction</b>.
   
-  <a>KDD AI for Sciences Track (Rebuttal period)</a> 
   <br><em>Huayi Wang, Haochao Ying, Yuyang Xu, Qiyao Zheng, jun wang, Cheng Zhang, Ying Sun, Jian Wu </em></br>
 </summary>
 
