@@ -1,5 +1,5 @@
 # HDMoE
-
+- [x] 2026-05-17 ⭐: Congratulations! 🎉🎊🎉 HDMoE has been accepted by KDD 2026 🎯
 <summary>
   <b>HDMoE: A Hierarchical Decoupling-Fusion Mixture-of-Experts Framework for Multimodal Cancer Survival Prediction</b>.
   
