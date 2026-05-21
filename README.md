@@ -76,6 +76,7 @@ If you find our work useful in your research, please consider citing our paper a
   author={Huayi Wang and Haochao Ying and Yuyang Xu and Qiyao Zheng and jun wang and Cheng Zhang and Ying Sun and Jian W},
   title={HDMoE: A Hierarchical Decoupling-Fusion Mixture-of-Experts Framework for Multimodal Cancer Survival Prediction}, 
   year={2026},
+  journal={arXiv preprint arXiv:2605.20891},
   keywords={Multimodal Learning; Mixture-of-Experts; Survival Prediction},
   }
 
