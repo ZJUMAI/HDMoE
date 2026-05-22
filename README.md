@@ -72,11 +72,13 @@ Huge thanks to the authors of following open-source projects:
 ## License & Citation 
 If you find our work useful in your research, please consider citing our paper at:
 ```bash
-@ARTICLE{HDMoE,
-  author={Huayi Wang and Haochao Ying and Yuyang Xu and Qiyao Zheng and jun wang and Cheng Zhang and Ying Sun and Jian W},
-  title={HDMoE: A Hierarchical Decoupling-Fusion Mixture-of-Experts Framework for Multimodal Cancer Survival Prediction}, 
-  year={2026},
-  journal={arXiv preprint arXiv:2605.20891},
-  keywords={Multimodal Learning; Mixture-of-Experts; Survival Prediction},
-  }
+@misc{wang2026hdmoehierarchicaldecouplingfusionmixtureofexperts,
+      title={HDMoE: A Hierarchical Decoupling-Fusion Mixture-of-Experts Framework for Multimodal Cancer Survival Prediction}, 
+      author={Huayi Wang and Haochao Ying and Yuyang Xu and Qiyao Zheng and jun wang and Cheng Zhang and Ying Sun and Jian Wu},
+      year={2026},
+      eprint={2605.20891},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.20891}, 
+}
 
